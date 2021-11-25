@@ -5,8 +5,11 @@ $('.navTrigger').click(function () {
     $("#mainListDiv").fadeIn();
 
 });
-
+var audio=new Audio('static/Spider Man 1967.mp3');
 function song(){
-    var audio=new Audio('static/Spider Man 1967.mp3');
+    
     audio.play();
+}
+function pause(){
+    audio.pause();
 }
